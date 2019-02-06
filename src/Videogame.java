@@ -32,9 +32,7 @@ public class Videogame
 
    public String toString()
    {
-       String output = "";
-
-       if ()
+       return game + ", " + genre + ", " + creator + ", " + year + ", " + singleplayer + ", " + multiplayer + ", " + gbSize;
    }
 
 }
