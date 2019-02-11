@@ -1,4 +1,3 @@
-import java.lang.annotation.ElementType;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +8,11 @@ public class Videogames
     public Videogames()
     {
         collection = new ArrayList<Videogame>();
+    }
+
+    public void addGame(Videogame v)
+    {
+        collection.add(v);
     }
 
     public Videogame getVideogame(String game)
@@ -40,6 +44,9 @@ public class Videogames
 
     public void sortByName()
     {
+        for (int j = 0; j < collection.size(); j++)
+        {
 
+        }
     }
 }
